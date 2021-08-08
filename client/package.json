@@ -1,0 +1,76 @@
+{
+  "name": "influence_crud_application",
+  "version": "0.1.0",
+  "private": true,
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.2.7",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "cloudinary": "^1.25.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "gh-pages": "^3.2.3",
+    "googleapis": "^74.2.0",
+    "jquery": "^3.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.11",
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.6.1",
+    "react": "^17.0.2",
+    "react-alert": "^7.0.3",
+    "react-delayed": "^0.2.3",
+    "react-dom": "^17.0.2",
+    "react-google-login": "^5.2.2",
+    "react-icons": "^4.2.0",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-router-tabs": "^1.3.2",
+    "react-script-tag": "^1.1.2",
+    "react-tabs": "^3.2.2",
+    "redux": "^4.1.0"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^7.31.0",
+    "@testing-library/user-event": "^13.1.9",
+    "chokidar": "^3.5.1",
+    "nodemon": "^2.0.7",
+    "react-scripts": "^4.0.3",
+    "web-vitals": "^1.1.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:5000/"
+}

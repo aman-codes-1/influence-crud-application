@@ -1,0 +1,22 @@
+.errMsg {
+    font-family: "Karla", sans-serif;
+    color: rgba(214, 10, 10);
+    text-align: center;
+    letter-spacing: 0.8px;
+    padding-bottom: 8px;
+}
+
+.successMsg {
+    font-family: "Karla", sans-serif;
+    color: rgb(9, 158, 54);
+    text-align: center;
+    letter-spacing: 0.8px;
+    padding-bottom: 8px;
+}
+
+.highlightedMsg {
+    background: rgba(17, 172, 113, 0.829);
+    color: white;
+    text-align: center;
+    padding: 10px 20px; margin: 10px 0; 
+}

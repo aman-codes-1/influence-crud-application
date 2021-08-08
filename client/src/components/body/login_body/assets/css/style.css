@@ -1,0 +1,89 @@
+.card2 {
+    padding: 30px 40px;
+    border: none !important;
+    box-shadow: 0 10px 30px 0 rgba(172, 168, 168, 0.63);
+}
+
+.blue-text {
+    color: #00BCD4
+}
+
+.form-control-label2 {
+    margin-bottom: 0
+}
+
+.input1,
+textarea,
+.button1 {
+    padding: 8px 15px;
+    border-radius: 5px !important;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 18px !important;
+    font-weight: 300
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #00BCD4;
+    outline-width: 0;
+    font-weight: 400
+}
+
+.button1 {
+    text-transform: uppercase;
+    font-size: 15px !important;
+    font-weight: 400;
+    height: 43px;
+    cursor: pointer
+}
+
+.button1:hover {
+    color: #fff !important
+}
+
+.button1:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+.bgClr3 {
+    border-radius: 30px;
+    background-color: #202052;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Have_a_Question_in_mind {
+    overflow: visible;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    padding-bottom: 10px;
+    color: rgba(255,255,255,1);
+}
+
+.login-card-img2 {
+    border-radius: 0;
+    position: absolute;
+    width: 85%;
+    height: 100%; 
+}
+
+.navLink {
+    border-radius: 6px;
+    background: rgba(231, 227, 227, 0.774);
+}
+
+.navLink2 {
+    border-radius: 6px;
+    background: rgb(236, 236, 236);
+}
